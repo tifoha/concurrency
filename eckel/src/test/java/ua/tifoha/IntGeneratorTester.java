@@ -32,6 +32,7 @@ public class IntGeneratorTester {
 				}
 			});
 		}
+		exec.shutdown();
 		exec.awaitTermination(timeout, timeUnit);
 	}
 
