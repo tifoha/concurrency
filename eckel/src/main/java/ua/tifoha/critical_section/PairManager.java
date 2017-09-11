@@ -42,7 +42,7 @@ class UnsynchronysedPairManager extends PairManager{
 	}
 }
 
-class SynchronysedPairManager extends UnsynchronysedPairManager {
+class SynchronizedPairManager extends UnsynchronysedPairManager {
 
 	@Override
 	public synchronized Pair increment() {
